@@ -1,5 +1,5 @@
 window.onload = ()=>{
-	mostar(['#formA','#formB'], 1);
+	mostrar(['#formB','#bnt1Aba','#formA','#bntAba'], 2);
 }
 function mostrar(ocu, chave){
 	for (var i=0; i<ocu.length; i++){
